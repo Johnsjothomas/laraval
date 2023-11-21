@@ -1,0 +1,12 @@
+/*****************************
+ All rights reserved.
+ AllFont.ru (c) 2011-2015
+ *****************************/
+@font-face {
+    font-family: 'Franklin Gothic Book';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Franklin Gothic Book'), local('FranklinGothicBook-Regular'),
+        url(http://allfont.ru/cache/fonts/franklin-gothic-book_6828c3c3f40c2a9342244b862d5542cb.woff) format('woff'),
+        url(http://allfont.ru/cache/fonts/franklin-gothic-book_6828c3c3f40c2a9342244b862d5542cb.ttf) format('truetype');
+}

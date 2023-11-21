@@ -1,0 +1,8 @@
+$('#toggle').click(function () {
+  $(this).toggleClass('active');
+  $('#overlay').toggleClass('open');
+});
+
+/*$('.search').click(function(){
+	$('.search-field').fadeToggle();
+});*/

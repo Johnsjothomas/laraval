@@ -1,0 +1,26 @@
+name: Run Laravel application
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  run-application-on-ec2:
+    name: Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: SSH to bastion host
+        env:
+          BASTION_PRIVATE_KEY: ${{ secrets.BASTION_PRIVATE_KEY }}
+          BASTION_IP: ${{ secrets.BASTION_IP }}
+          USER_NAME: ${{ secrets.USER_NAME }}
+        run: |
+          echo "$BASTION_PRIVATE_KEY" > private_key && chmod 600 private_key
+        
+          ssh -o StrictHostKeyChecking=no -i private_key "${USER_NAME}@${BASTION_IP}" '/home/ec2-user/LIVE_Deploy.sh'
+
+      - name: Remove PEM Files
+        run: |
+          rm -f private_key

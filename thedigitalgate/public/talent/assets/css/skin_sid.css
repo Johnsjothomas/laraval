@@ -1,0 +1,68 @@
+a:active,a:focus{
+	outline: none;
+}
+
+.bluebtn{
+  font-size:12px;
+}
+.btn-blue{
+	background-color: #15284C;
+	color:#fff;
+}
+.btn-disabled{
+	background-color: #eee;
+	color:#a2a0a0;
+}
+.employer-table{
+  font-size: 12px;
+}
+.tableheader{
+  font-size: 14px;
+}
+.navlink a{
+  margin-right:5px;
+}
+
+.navlink{
+  margin-bottom: 10px;
+}
+
+.seperator{
+	border-right: 1px solid;
+	height: 20px;
+	margin-top: 10px;
+}
+
+.job-card{
+	height:200px;
+	padding:10px 80px;
+}
+
+.signupcard{
+	cursor: pointer
+}
+.signupcard div label{
+	cursor: pointer
+}
+.nav-item{
+	font-size: 12px;
+}
+
+#application_form .modal-content{
+	padding: 0 30px;
+}
+
+.training-request .card{
+	margin-bottom: 20px
+}
+
+.application-card{
+	margin-bottom: 20px
+}
+
+.interview-form .form-input{
+	margin:30px 0;
+}
+.interview-form .slot{
+	text-align: left !important;
+}

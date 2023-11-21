@@ -1,0 +1,261 @@
+.pd24 {
+	padding-left: 1%;
+	padding-right: 10%;
+}
+
+.nav-item, .nav-item .nav-link, .navbar-nav .nav-link {
+	/* font-size: 12px !important; */
+	font-size: 16px !important;
+	font-weight: bold;
+}
+
+.activeTab { width:100%; padding:30px 0 20px 0; background:#fff; } 
+.active { background: #f0f0f0; }
+
+.nav-item.active a {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.heading1 {
+	margin-bottom: 0.5rem;
+	font-size: 24px;
+}
+
+.mb_15 {
+	margin-bottom: 15px;
+}
+
+.mb_30 {
+	margin-bottom: 30px;
+}
+
+.table td {
+	text-align: center;
+}
+
+.aspirant-card {
+	height: 300px;
+	background-color: #F4F4F4;
+	border-radius: 5px;
+	padding: 45px;
+}
+.training-request-card {
+	padding: 20px;
+	height: auto;
+	background-color: rgba(0,0,0,0.025);
+}
+.aspirant-card.alist {
+	padding: 20px;
+	height: auto;
+}
+
+.aspirant-card .normalfont3, .training-request-card .normalfont3{
+	padding-bottom: 40px;
+}
+
+.training-request-card .normalfont4{
+	    padding: 0px;
+    margin: 3px 0px;
+    display: block;
+
+}
+.training-request-card  .normalfont1{
+	font-size:20px;
+}
+
+.training-request-card  .normalfont3{
+	color:#000;
+	margin-top:20px;
+}
+.aspirant-card .aprofile {
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.aspirant-card .btn, .training-request-card .btn {
+	width: 100%;
+	font-size: 12px;
+	padding: 10px;
+}
+
+.trainingstatus {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	display: inline-block;
+}
+.trainingstatus.red {
+	background-color: #FF3D00;
+}
+
+.trainingstatus.yellow {
+	background-color: #FFD600;
+}
+
+.trainingstatus.green {
+	background-color: #5FBC6B;
+}
+
+
+.training-request-card label{
+	font-size: 12px;
+display: block;
+padding: 0px;
+margin: 0px 0px 2px 0px;
+}
+.employert-nav .whitebtn, .employert-nav .bluebtn{
+	padding:10px;
+}
+
+.bluetxt{
+	color:#15284C;
+	font-weight:bold;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media ( min-width : 320px) and (max-width: 767.98px) {
+	.responsive_spaceing {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.dropdown-menu.show {
+		left: -130px;
+	}
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media ( min-width : 768px) {
+}
+
+.tab-pane h5 {
+	font-size: 16px;
+}
+
+.btn-sm {
+	padding: 0.25rem 0.5rem;
+}
+
+.mr-10 {
+	margin-right: 10px;
+}
+
+.success_social_icons {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	margin-top: 20px;
+	margin-left: 0px;
+}
+
+.success_social_icons li {
+	float: left;
+	padding: 0px 15px;
+	padding-left: 0px;
+}
+
+.modal-header {
+	border: 0px;
+}
+
+/*/////////// message styles ////////////*/
+.message_status {
+	position: relative;
+	padding-left: 15px;
+}
+
+.message_status::before {
+	width: 10px;
+	height: 10px;
+	background-color: green;
+	border-radius: 100px;
+	content: "";
+	position: absolute;
+	left: 0px;
+	top: 11px;
+}
+
+.show_istory {
+	text-align: center;
+	position: relative;
+	height: 40px;
+}
+
+.show_istory hr {
+	border-top: #ebebeb;
+	position: absolute;
+	width: 100%;
+	top: 15px;
+	height: 1px;
+	background-color: #ebebeb;
+	margin: 0px;
+}
+
+.show_istory a {
+	border: 1px solid #ebebeb;
+	padding: 5px 25px;
+	color: rgb(83, 83, 83);
+	position: relative;
+	top: 5px;
+	background-color: #fff;
+}
+
+.fa-paperclip {
+	position: absolute;
+	right: 51px;
+	top: 15px;
+	font-size: 17px;
+	color: #15284C;
+}
+
+.msg_send_btn {
+	right: 6px;
+	top: 7px;
+}
+
+.sandwich_button {
+	position: absolute;
+	right: 0px;
+	width: 21px;
+	right: 17px;
+}
+
+.sandwich_button .bt_1 {
+	display: block;
+	height: 3px;
+	background-color: #15284C;
+	margin-bottom: 3px;
+}
+
+.sandwich_button .bt_5 {
+	display: block;
+	height: 6px;
+	background-color: #15284C;
+	margin-bottom: 3px;
+}
+
+.white_bg {
+	background-color: #fff;
+}
+
+.remove_br {
+	border: 0px;
+}
+
+.remove_br .card-header {
+	border-bottom: 0px;
+}
+
+/*/////////// paddings ////////////*/
+.pl_0 {
+	padding-left: 0px !important;
+}
+newstyles
+.css
+
+
+Displaying
+ 
+newstyles
+.css
+.
